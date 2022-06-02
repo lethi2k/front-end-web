@@ -1,0 +1,157 @@
+/**
+  * Custom Styles for the Documentation
+  */
+
+.md-typeset h1 {
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin: 0 0 1rem;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #eff0ef;
+}
+
+.md-typeset h1, .md-typeset h2 {
+    font-weight: 700 !important;
+    letter-spacing: -.01em;
+}
+
+body .md-header {
+    height: auto;
+}
+
+.md-header__button.md-logo :where(img, svg) {
+    display: block;
+    height: auto;
+    width: 100px;
+}
+
+body .md-ellipsis {
+    margin-top: 4px;
+}
+
+body .md-search__inner {
+    margin-top: 5px;
+}
+
+.md-typeset h4 {
+    font-size: 1rem;
+}
+
+.md-typeset h5, .md-typeset h6 {
+    color: rgb(0, 0, 0);
+    font-size: .9em;
+}
+
+.md-footer-copyright {
+    color: hsl(0, 0%, 69%);
+    /* display: none; */
+}
+
+.md-typeset iframe, .md-typeset img, .md-typeset svg {
+    border: 5px solid #e7e7e7;
+}
+
+.md-footer-social svg {
+    border: none;
+}
+
+.setup-btn {
+    background: #0f91f6;
+    color: #fff !important;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.setup-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.md-header__title {
+    margin-left: 0;
+}
+
+body .md-ellipsis {
+    margin-top: 0px;
+}
+
+.md-footer-nav__inner {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    padding: .2rem;
+}
+
+.md-footer-nav__link {
+    display: flex;
+    flex-grow: 0.01;
+    outline-color: var(--md-accent-fg-color);
+    overflow: hidden;
+    padding-bottom: .4rem;
+    padding-top: 1.4rem;
+    transition: opacity .25s;
+}
+
+.md-footer-nav__link--next {
+    margin-left: auto;
+    text-align: right;
+}
+
+.md-footer-nav__button.md-icon {
+    margin: .2rem;
+    padding: .4rem;
+}
+
+.md-footer-nav__title {
+    flex-grow: 1;
+    font-size: .9rem;
+    line-height: 2.4rem;
+    max-width: calc(100% - 2.4rem);
+    padding: 0 1rem;
+    position: relative;
+}
+
+.md-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.md-footer-nav__direction {
+    font-size: .64rem;
+    left: 0;
+    margin-top: -1rem;
+    opacity: .7;
+    padding: 0 1rem;
+    position: absolute;
+    right: 0;
+}
+
+.md-footer-meta__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .2rem;
+}
+
+.md-footer-copyright {
+    width: auto;
+}
+
+.md-footer-copyright {
+    color: var(--md-footer-fg-color--lighter);
+    font-size: .64rem;
+    margin: 0 auto;
+    padding: .4rem 0;
+}
+
+.md-social {
+    display: none;
+    padding: .6rem 0;
+}
+
+@media (min-width: 1219px) {
+    .md-header__title {
+        visibility: hidden;
+    }
+}
